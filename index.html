@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Application-Form</title>
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <h3> EMPLOYEE ID CARD FORM </h3>
+    <form id="contact" method="post" action="">
+        <div class="required">
+        <label for="FirstName">FirstName</label>
+        <input type="text" id="FirstName" required>
+        <span id="errorFirstName" class="displayerror">Please enter FirstName</span>
+        </div>
+        <div class="required">
+        <label for="FullName">FullName</label required>
+        <input type="text" id="FullName">
+        <span id="errorFullName" class="displayerror">Please enter FullName</span>
+        </div>
+        <div>
+                <label for="Designation">Designation</label>
+                <input type="text" id="Designation">
+        </div>
+        <div>
+                <label for="Employeecode">Employee code</label>
+                <input type="text" id="Employee code">
+        </div>
+        <div>
+                <label for="bloodgroup">Blood Group</label>
+                <input type="text" id="bloodgroup">
+        </div>
+        <!-- <div class="radio">
+                <label for="reason">Reason for Issue</label>
+                <br>
+        
+                <input type="radio" id="contactChoice1"
+                name="contact" value="employee">
+               <label for="contactChoice1">New Employee</label>
+                
+        
+               <input type="radio" id="contactChoice2"
+                name="contact" value="lost">
+               <label for="contactChoice2">Lost</label>
+               
+        
+               <input type="radio" id="contactChoice3"
+                name="contact" value="defaced">
+               <label for="contactChoice3">Defaced</label>
+               
+        
+               <input type="radio" id="contactChoice4"
+               name="contact" value="conversion">
+              <label for="contactChoice2">Conversion</label>
+              
+        
+              <input type="radio" id="contactChoice5"
+               name="contact" value="designation">
+              <label for="contactChoice3">Designation Changes</label>
+         </div> -->
+        <div>
+                <label for="dateemp">Date Of Employement</label>
+                <input type="text" id="dateemp">
+        </div>
+        <div>
+                <label for="mailid">E-mail id (Virtusa)</label>
+                <input type="text" id="mailid" required>
+        </div>
+        <div>
+                <label for="Employeemobileno">Employee Mobile No</label>
+                <input type="text" id="Employeemobileno">
+        </div>
+        <div>
+                <label for="Employeecontactno ">Employee Contact Number</label>
+                <input type="text" id="Employecontactno">
+        </div>
+        <button type="button" onclick="addDetails()">AddDetails
+        </button>
+  </form>
+
+ <script src=js/app.js>
+    </script>
+</body>
+</html>
