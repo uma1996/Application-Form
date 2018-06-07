@@ -148,7 +148,7 @@ function checkNull(id)
 }
 function checkNumbersOnly(id)
 {
-    const pattern="/^[0-9]+$/;"
+    const pattern="/^[0-9]/+$/;"
     const value=$(`#${id}`).val();
     if(value.match(pattern))
     {
@@ -168,7 +168,7 @@ function checkLength(id, length)
 }
 function checkEmail(id)
    {
-    const valid="/^([A-Za-z0-9_\-\.])+\@virtusa.com$/";
+    const valid="/^([A-Za-z0-9_\-\.])+@virtusa.com$/";
     const value=$(`#${id}`).val();
     if(value.match(pattern))
     {
