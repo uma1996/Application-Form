@@ -1,17 +1,20 @@
-
-
-#contact label{
-	display: inline-block;
-	width: 150px;
-	text-align: right;
-}
-
-.displayerror{
-	display: none;
-	margin-left: 10px;
-}	
-
 #radio{
     text-align: center;
     align-self: auto;
+}
+
+.form-group
+{
+	display: block;
+	text-align: left;
+}
+.error
+{
+   border: 1px solid red;
+}
+
+.forms-group
+{
+	justify-content: space-evenly;
+	align-self: auto;
 }
